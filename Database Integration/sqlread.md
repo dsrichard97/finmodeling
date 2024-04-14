@@ -1,7 +1,7 @@
 <h1 align="center">Snowflake SQL - AMD Sentiment Analysis Score</h1>
 <p align="center">
 <p align="center">
-  <img src="chic1.jpeg" width="400" height="340" allow="autoplay">
+  <img src="snw.png" width="400" height="340" allow="autoplay">
 </p>
 <body>
 <body style="background-color: #f0f0f0;">
@@ -43,6 +43,7 @@
     </p>
     <h2>Brain Sentiment Indicator Source</h2>
     <p>
+      <img src="snw2.png" width="400" height="340" allow="autoplay">
       The Brain Sentiment Indicator extracts sentiment and related metrics like buzz and volume from public financial news for 6000+ US stocks from many thousands of financial media sources in 33 languages.
 The sentiment scoring technology is based on a combination of various natural language processing techniques. The sentiment score assigned to each stock is a value ranging from -1 (most negative) to +1 (most positive) that is updated with a daily frequency. For each stock the sentiment score corresponds to the average of sentiment for each piece of news and it is available on two time scales; 7 days and 30 days. Additional fields measuring the number of stories published and the level of attention (buzz) received from financial media are also available. This dataset contains historical data from August 2016 until July 2022 for trial purposes. In production mode the live dataset is updated daily with new files every day within 6am UTC. <a href="https://www.snowflake.com/en/company/overview/about-snowflake/">snowflake</a>
     </p>
@@ -71,14 +72,12 @@ The sentiment scoring technology is based on a combination of various natural la
 <p>
   <section id="quick-glance">
     <h2>Quick Glance at the Results</h2>
-       <td style="padding: 10px;">
-            <b>SQL Code:</b> <a href="https://github.com/dsrichard97/chicagosql" target="_blank">Pull Request</a>
-        </td>
+
       </p>
 
 <center>
     <div class="container">
-  <img src="gif1.gif" alt="Snow" style="width:100%;">
+  <img src="sqlgif.gif" alt="Snow" style="width:100%;">
   <div class="bottom-left">Data Type</div>
 </div>
 <body>
@@ -139,37 +138,17 @@ WHERE
 ORDER BY 
     CALCULATION_DATE ASC;
     </pre>
-    <p>Copy the above SQL code snippet to query data from the last 5 years.</p>
+    <p>Copy the above SQL code snippet to query data onto your snowflake data query.</p>
 </body>
 
 
 <body>
-  <h3>R Code</h3>
-  <p>
-  Click on image to link
-  </p>
-    <a href="http://rpubs.com/diazrichard98/1135536" target="_blank">
-        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/crime.gif" alt="Descriptive Text" style="width: auto; height: auto;">
-    </a>
+  <h3>SQL Code</h3>
+  
 </body>
 
 <body>
-    <h3>Python Code</h3>
-  <p>
-    Click on image to link
-  </p>
-<a href="https://github.com/dsrichard97/chicago_crime/blob/main/crime%20data/crime%20data.md" target="_blank">
-        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/pyplot.png" alt="Descriptive Text" style="width: auto; height: auto;">
-    </a>
-  <ul>
-<li> Cluster 0: This is one group or 'cluster' of crime incidents as identified by the K-means algorithm. All points in this cluster are more similar to each other (in terms of their geographical location - latitude and longitude) than they are to points in other clusters.
-  
-<li> Cluster 1: This represents a different group of crime incidents, again grouped based on their proximity to each other.
-  
-<li> Clusters 2, 3, and 4: Similarly, these labels represent additional groups of crime incidents.
-</ul>
-
-The goal of this clustering is to identify 'hotspots' of crime in Chicago based on geographical data. Each cluster represents a geographical area where crimes have occurred with higher density compared to other areas. By examining these clusters, you can gain insights into which areas require more attention or resources for crime prevention and law enforcement.
+  <h3>SQL Code Results</h3>
 
 </body>
 
