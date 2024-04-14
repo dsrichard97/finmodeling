@@ -1,4 +1,4 @@
-# Financial Modeling Steps
+# Financial Modeling Steps with Live Data
 ### 1. Real-Time Data Collection with APIs
 Using financial market data APIs can automate the process of fetching real-time stock price and volume data, which is crucial for maintaining the accuracy of your prediction model. Here are some options:
 
