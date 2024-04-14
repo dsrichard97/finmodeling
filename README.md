@@ -10,7 +10,7 @@ You can set up scheduled tasks (using cron jobs in Linux or scheduled tasks in W
 ### 2. Database Integration for Data Storage
 Using a database to store historical and real-time data can improve the performance of your model by providing structured and quick access to large volumes of data. Here are a few database solutions you can consider:
 
-- SQL Databases (e.g., PostgreSQL, MySQL): Great for structured data and complex queries.
+- SQL Databases (e.g., PostgreSQL, MySQL, Snowflake): Great for structured data and complex queries.
 - NoSQL Databases (e.g., MongoDB, Cassandra): Better suited for handling large volumes of unstructured data with flexibility in terms of data model.
 
 ### 3. Feature Engineering via Database Queries
