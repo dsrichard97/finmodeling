@@ -151,14 +151,14 @@ ORDER BY
 
 
 <b>Reports: The goal is to craft a quick sentiment analysis score of AMD. </b>
-          <li> I utilized SQL code on snowflakes platform to be able to render reports using inhouse products. There are different versions of in-house products deployed by snowflake that are free and acessible for anyone to use.
+        <li> I utilized SQL code on snowflakes platform to be able to render reports using inhouse products. There are different versions of in-house products deployed by snowflake that are free and acessible for anyone to use.>
 
-          This trend could indicate various factors influencing public perception and sentiment towards AMD, such as market performance, company news, product launches, or broader economic conditions. The lower sentiment in 2022 and 2023, for example, might suggest less favorable public opinion or possibly external market factors that influenced investor confidence negatively.
+  <p>This trend could indicate various factors influencing public perception and sentiment towards AMD, such as market performance, company news, product launches, or broader economic conditions. The lower sentiment in 2022 and 2023, for example, might suggest less favorable public opinion or possibly external market factors that influenced investor confidence negatively.</p>
 
-It's important to note that sentiment scores are typically derived from analyzing the language used in news articles, social media posts, and other public communications. These scores are then averaged over a specified period—in this case, annually—to provide a general indication of sentiment towards a company or stock
+<p>It's important to note that sentiment scores are typically derived from analyzing the language used in news articles, social media posts, and other public communications. These scores are then averaged over a specified period—in this case, annually—to provide a general indication of sentiment towards a company or stock </p>
 
 
-          </li>
+</li>
         </ul>
 <p>
 
