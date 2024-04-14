@@ -73,12 +73,9 @@ The sentiment scoring technology is based on a combination of various natural la
   <section id="quick-glance">
     <h2>Quick Glance at the Results</h2>
 
-      </p>
-
-<center>
     <div class="container">
   <img src="sqlgif.gif" alt="Snow" style="width:100%;">
-  <div class="bottom-left">Data Type</div>
+  <div class="bottom-left">SQL Code</div>
 </div>
 <body>
     <h2>SQL Code Snippet:</h2>
@@ -143,27 +140,12 @@ ORDER BY
 
 
 <body>
-  <h3>SQL Code</h3>
+  <h3>SQL Results</h3>
   
 </body>
 
-<body>
-  <h3>SQL Code Results</h3>
 
-</body>
-
-
-<body>
-    <h3>Tableau Dashboard</h3>
-  <p>
-    Click on image to link
-  </p>
-  <a href="https://public.tableau.com/views/CRIMEDATA_17044875678690/MAINDB?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" target="_blank">
-        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/tab1.png" alt="Descriptive Text" style="width: auto; height: auto;">
-    </a>
-</body>
-
-<b>Visualizations: The goal is to craft compelling narratives for stakeholders. </b>
+<b>Reports: The goal is to craft a quick sentiment analysis score of AMD. </b>
           <li> I utilized R and Python programming to analyze and reveal patterns of crime, delving into the complex relationship between geographic locations and time to highlight less explored aspects of urban crime. Through geospatial analysis, I identified crime hotspots and patterns at a micro-level, effectively pinpointing critical areas needing attention. The reports I crafted aim to provide actionable insights, enabling targeted strategic interventions.
 
 My analysis of Chicago's 2022-2023 crime data spotlighted the top five crimes, showcasing my capability to simplify complex datasets into clear, actionable insights. This work not only brought to light prevalent crime trends, such as deceptive practices, but also employed sophisticated techniques like K-means clustering in Python for a comprehensive analysis of crime across a wider scope. This effort demonstrates my technical prowess, innovative problem-solving approach, and strategic thinking in crime prevention and safety.
