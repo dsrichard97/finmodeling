@@ -175,18 +175,5 @@ The SQL query provided as a reference suggests that these scores are aggregated 
   <section id="limitation">
     <h2>Limitations and Areas for Improvement</h2>
 <p>
-Utilizing a free online database from Google BigQuery presented certain challenges, as some data had been pre-processed and sensitive information like actual names and full street addresses were omitted for security reasons. Ideally, in real-world scenarios, data should not be manipulated before conducting analysis and documenting specific alterations. Consequently, this report serves more as a conceptual demonstration rather than an exact representation of reality.
+Snowflake sentiment score can not be changed. So, certain model assumptions have been built already and can not be changed.
 </p>
-
-
-
-  
-<div class="section">
-        <h2>Resources</h2>
-        <p>
-             <a href="https://csulb-my.sharepoint.com/:p:/g/personal/richard_diazdeleon01_student_csulb_edu/EQnZJ2L5sJxChJji6DqvhL0BfsDbXO467AQWm8Dai6r9XA?e=uS6TA8">PowerPoint</a><br>
-            <a href="https://popcenter.asu.edu/sites/default/files/learning/60steps/index3f62.html?stepNum=25">Crime Analysis in 60 steps</a><br>
-            <a href="https://projects.itrcweb.org/gsmc-1/Content/GW%20Stats/5%20Methods%20in%20indiv%20Topics/5%208%20Temporal%20Analysis.htm">Motivation</a><br>
-            <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/time/temporal-data.htm">ArcGIS Pro Time Series Data Store Values</a>
-        </p>
-    </div>
