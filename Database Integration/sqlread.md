@@ -73,7 +73,7 @@ The sentiment scoring technology is based on a combination of various natural la
   <section id="quick-glance">
     <h2>Quick Glance at the Results</h2>
 
-    <div class="container">
+  <div class="container">
   <img src="sqlgif.gif" alt="Snow" style="width:100%;">
   <div class="bottom-left">SQL Code</div>
 </div>
@@ -141,14 +141,23 @@ ORDER BY
 
 <body>
   <h3>SQL Results</h3>
-  
+  <p>
+      <img src="q1.png" width=auto height=auto allow="autoplay">
+    </p>
+    <p>
+      <img src="q2.png" width=auto height=auto allow="autoplay">
+    </p>
 </body>
 
 
 <b>Reports: The goal is to craft a quick sentiment analysis score of AMD. </b>
-          <li> I utilized R and Python programming to analyze and reveal patterns of crime, delving into the complex relationship between geographic locations and time to highlight less explored aspects of urban crime. Through geospatial analysis, I identified crime hotspots and patterns at a micro-level, effectively pinpointing critical areas needing attention. The reports I crafted aim to provide actionable insights, enabling targeted strategic interventions.
+          <li> I utilized SQL code on snowflakes platform to be able to render reports using inhouse products. There are different versions of in-house products deployed by snowflake that are free and acessible for anyone to use.
 
-My analysis of Chicago's 2022-2023 crime data spotlighted the top five crimes, showcasing my capability to simplify complex datasets into clear, actionable insights. This work not only brought to light prevalent crime trends, such as deceptive practices, but also employed sophisticated techniques like K-means clustering in Python for a comprehensive analysis of crime across a wider scope. This effort demonstrates my technical prowess, innovative problem-solving approach, and strategic thinking in crime prevention and safety.
+          This trend could indicate various factors influencing public perception and sentiment towards AMD, such as market performance, company news, product launches, or broader economic conditions. The lower sentiment in 2022 and 2023, for example, might suggest less favorable public opinion or possibly external market factors that influenced investor confidence negatively.
+
+It's important to note that sentiment scores are typically derived from analyzing the language used in news articles, social media posts, and other public communications. These scores are then averaged over a specified period—in this case, annually—to provide a general indication of sentiment towards a company or stock
+
+
           </li>
         </ul>
 <p>
@@ -157,10 +166,8 @@ My analysis of Chicago's 2022-2023 crime data spotlighted the top five crimes, s
   <section id="lesson-learned">
   <h2>Lessons Learned and Recommendation</h2>
   <p>
-   I realized that real-time data is ever more necessary for sharing real-time results. Database is updated by the Chicago I.T. department, however, to solve real-case issues and helping law enforcments need to have acess to real time data. As data becomes more accessible for people through various mediums and networks then it is ever more important to have scanners for online crimes and fradualant crimes. Cybersecuirty will be more important than ever. I did use Python and R code to request retrievals for infromation that highlights important crime in the community and so from a geographical perspective this is a good lead for others to be aware about prevailing crimes. I learned in addition that databases needs more security since a lot of imformation can be immediately downloaded from online social media platforms that leave essentially footprints. In terms of the reports, I could have enhanced by connecting to API's(Live connected data). On the other hand, I learned important tasks for data manipulation and documentating progress. I was able to display work using html that can make it easier for others to replicate my work. I've come to realize the increasing necessity of real-time data for sharing immediate results. The database, maintained by the Chicago I.T. department, is crucial for addressing real-world issues and assisting law enforcement by providing access to up-to-the-minute data. As data becomes more accessible to the public via various platforms and networks, the importance of scanning for online and fraudulent crimes escalates. Consequently, cybersecurity is becoming more critical than ever before.
 
-
-In summary, I've learned that enhancing database security is imperative, as vast amounts of information can be easily extracted from online social media platforms, leaving digital traces. Regarding my reports, they could have been improved by integrating APIs for live data connections. However, this experience has been instrumental in honing my skills in data manipulation and documenting progress.</p>
+The SQL query provided as a reference suggests that these scores are aggregated over a 30-day rolling period leading up to the specific calculation date, and then further analyzed to provide a yearly average. Such a query can help in tracking and analyzing the change in sentiment over time, which can be a valuable component of market analysis and decision-making processes in finance. The future is difficult to predict but with these models its easier to have slighlty better assumptions.</p>
 
 
 
@@ -169,9 +176,6 @@ In summary, I've learned that enhancing database security is imperative, as vast
     <h2>Limitations and Areas for Improvement</h2>
 <p>
 Utilizing a free online database from Google BigQuery presented certain challenges, as some data had been pre-processed and sensitive information like actual names and full street addresses were omitted for security reasons. Ideally, in real-world scenarios, data should not be manipulated before conducting analysis and documenting specific alterations. Consequently, this report serves more as a conceptual demonstration rather than an exact representation of reality.
-</p>
-<p>
-Moreover, dealing with real-world data is inherently more complex, requiring initial data engineering or scraping through frontend scripts to access comprehensive online information, including that from law enforcement databases. In essence, although this report was successful in creating a mock-up scenario, it highlights the significant gap between simulated environments and the intricacies of handling authentic datasets.
 </p>
 
 
