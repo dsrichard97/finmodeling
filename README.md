@@ -13,8 +13,8 @@ Using a database to store historical and real-time data can improve the performa
 - SQL Databases (e.g., PostgreSQL, MySQL, Snowflake): Great for structured data and complex queries.
 - NoSQL Databases (e.g., MongoDB, Cassandra): Better suited for handling large volumes of unstructured data with flexibility in terms of data model.
 
-### 3. Feature Engineering via Database Queries
-Enhance your model by engineering new features directly through complex database queries. For example, calculate moving averages, percentage changes, or relative strength index (RSI) values from stored data, and use these as inputs to your model.
+### 3. Feature Engineering 
+Enhance your model by engineering new features directly through using different programming codes and modeling techniques.
 
 ### 4. Deploying APIs for Model Access
 Create a RESTful API to serve predictions from your model. This can be done using frameworks like Flask or Django in Python. This API can then be accessed by other applications, websites, or even mobile apps to display predictions in real-time.
